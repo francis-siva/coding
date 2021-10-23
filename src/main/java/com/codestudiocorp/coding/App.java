@@ -17,9 +17,9 @@ public class App
         /* [++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++] */
         //TWIN word Management
         String p1 = "marion", p2 = "romain";
-        System.out.println("Return " + AlgoTwinWords.isTwinWords(p1, p2));
+        System.out.println("Return " + AlgoTwinWords.isTwinWords(p1, p2));        
         
-        
+        System.out.println("Return " + AlgoTwinWords.isTwinWords("Lookout", "Outlook"));
     }
 
     

@@ -73,6 +73,8 @@ public final class AlgoTwinWords {
     
     public static boolean isTwinWords(String word, String compareTo) {
     	boolean res = false;
+        word = word.toUpperCase();
+        compareTo = compareTo.toUpperCase();
         
         if(AlgoTwinWords.isEqualLength(word, compareTo)) {        	
         	res = AlgoTwinWords.isAllLettersOfWord1PresentInWord2(AlgoTwinWords.getRepeatedLetters(word),
